@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(numbers);
         a = numbers.length-1;
         b = numbers.length-2;
-        answer = numbers.[a] * numbers.[b];
+        answer = numbers[a] * numbers[b];
             
         return answer;
     }
