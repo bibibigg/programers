@@ -1,7 +1,7 @@
 class Solution {
     public long solution(String numbers) {
         long answer = 0;
-        //replace함수를 사용하여 문자를 숫자문자로 바꾼후 Integer.parseInt로 정수로 변환
+        //replace함수를 사용하여 문자를 숫자문자로 바꾼후 Long.parseLongt로 long형으로 변환
         numbers = numbers.replace("zero","0");
         numbers = numbers.replace("one","1");
         numbers = numbers.replace("two","2");
